@@ -22,9 +22,9 @@ A personal portfolio website showcases my work and skills.
 
 
 ## Contacts
-- **Email:** [your-email@example.com](wengyen.p@gmail.com)
-- **LinkedIn:** [Your LinkedIn Profile](http://www.linkedin.com/in/andrea-phung-8b2a56288")
-- **GitHub:** [Your GitHub Profile](https://github.com/andyfung15)
+- **Email:** [wengyen.p@gmail.com]
+- **LinkedIn:** [http://www.linkedin.com/in/andrea-phung-8b2a56288]
+- **GitHub:** [https://github.com/andyfung15]
 
 ## 📄 License
 
