@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Phung - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Andrea Phung</a>
+            <ul class="nav-menu">
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experiences" class="nav-link">Experience</a></li>
+            </ul>
+            <div class="nav-socials">
+                <a href="http://www.linkedin.com/in/andrea-phung-8b2a56288" target="_blank" class="nav-social-link">LinkedIn</a>
+                <a href="https://github.com/burntmarshmallow04" target="_blank" class="nav-social-link">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Andrea Phung</h1>
+            <p class="hero-subtitle">Penultimate-Year Computer Science Student | Queen Mary University of London</p>
+            <p class="hero-description">
+                Designing elegant solutions to complex problems. Passionate about full-stack development, 
+                clean code, and creating impactful software.
+            </p>
+            <div class="hero-cta">
+                <button type="button" class="cta-button" data-email="wengyen.p@gmail.com" onclick="copyToClipboard(this, 'data-email', 'Email copied to clipboard')">
+                    Get in touch — wengyen.p@gmail.com
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image horse-race">
+                        <img src="horse_race_simulator.png" alt="Horse Race Simulator" class="project-image-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Horse Race Simulator</h3>
+                        <p class="project-description">
+                            Simulation platform modeling horse racing using object-oriented programming principles and Swing GUI. Handles user input to manipulate attributes and race conditions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Swing</span>
+                            <span class="tech-tag">OOP</span>
+                        </div>
+                        <a href="https://github.com/andyfung15/HorseRaceSimulator" target="_blank" class="project-link">View on GitHub → </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image gowhere-preview-trigger">
+                        <img src="gowhere.png" alt="GoWhere" class="project-image-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>GoWhere</h3>
+                        <p class="project-description">
+                            Brief description of your project. What problem does it solve? What technologies did you use?
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                        <a href="https://github.com/HarrisAffandi708/GoWhere" class="project-link">View on GitHub →</a>
+                    </div>
+                    <div class="image-preview-modal gowhere-preview-modal">
+                        <img src="gowhere.png" alt="GoWhere Full Preview">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h4>Languages</h4>
+                    <p>Python, Java, JavaScript, HTML, CSS, PHP, SQL</p>
+                </div>
+                <div class="skill-item">
+                    <h4>Frontend</h4>
+                    <p>React, React Native, Figma</p>
+                </div>
+                <div class="skill-item">
+                    <h4>Backend</h4>
+                    <p>Node.js, RestAPIs</p>
+                </div>
+                <div class="skill-item">
+                    <h4>Tools & Platforms</h4>
+                    <p>Git, IntelliJ IDEA, VS Code, GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+            </div>
+            
+            <div class="experiences-timeline">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Secretary</h3>
+                        <span class="role-badge">Queen Mary Malaysian Society</span>
+                    </div>
+                    <p class="date">September 2025 - Present | London, UK</p>
+                    <ul class="highlights">
+                        <li>Collaborated with committee members to deliver cultural, social, and academic events for over 70 Malaysian students</li>
+                        <li>Oversaw the society's social media page and monthly newsletter for event promotions and post-event updates</li>
+                        <li>Co-hosted events with Malaysian societies across London universities to foster inter-university connections</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Intern</h3>
+                        <span class="role-badge">Skyechip Sdn. Bhd.</span>
+                    </div>
+                    <p class="date">June 2025 - August 2025 | Penang, Malaysia</p>
+                    <ul class="highlights">
+                        <li>Developed Python scripts to automate parameter randomisation and simulation optimization runs</li>
+                        <li>Maintained and improved a UI regression test suite by fixing failing test scripts</li>
+                        <li>Debugged Python APIs to ensure reliability in existing chip design flows</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Teaching Assistant</h3>
+                        <span class="role-badge">Young Engineers</span>
+                    </div>
+                    <p class="date">June 2024 - August 2024 | Penang, Malaysia</p>
+                    <ul class="highlights">
+                        <li>Delivered engineering concepts to children aged 6-7 using LEGO and Algobrix in an engaging manner</li>
+                        <li>Managed classroom behavior and maintained student focus to ensure smooth lesson delivery</li>
+                        <li>Coordinated with teaching team to prepare classroom materials and lesson briefings</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Floor Staff</h3>
+                        <span class="role-badge">Pace Coffee</span>
+                    </div>
+                    <p class="date">June 2024 - August 2024 | Penang, Malaysia</p>
+                    <ul class="highlights">
+                        <li>Provided efficient table service with accurate order taking and positive customer experience</li>
+                        <li>Coordinated with kitchen staff to communicate orders and dietary requirements</li>
+                        <li>Managed multiple tables during peak hours while maintaining service excellence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Andrea Phung</p>
+            <div class="footer-links">
+                <a href="http://www.linkedin.com/in/andrea-phung-8b2a56288" target="_blank">LinkedIn</a>
+                <a href="https://github.com/burntmarshmallow04" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
