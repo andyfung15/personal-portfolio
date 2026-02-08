@@ -257,7 +257,7 @@ body {
 .experience-card {
     background: var(--bg-white);
     padding: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     border-radius: 0.75rem;
     border-left: 4px solid var(--primary-color);
     box-shadow: var(--shadow);
