@@ -176,7 +176,7 @@ body {
     color: var(--text-light);
     margin-bottom: 3rem;
     line-height: 1.8;
-    max-width: 500px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;    
     color: whitesmoke;
@@ -257,7 +257,7 @@ body {
 .experience-card {
     background: var(--bg-white);
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-radius: 0.75rem;
     border-left: 4px solid var(--primary-color);
     box-shadow: var(--shadow);
